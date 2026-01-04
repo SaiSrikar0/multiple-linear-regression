@@ -4,7 +4,7 @@ A Streamlit app to explore and predict restaurant tips using a multiple linear r
 
 ## Live Demo
 
-- Deployed app: (Coming soon)
+- Deployed app: https://mlr-prediction.streamlit.app/
 
 ## Preview
 
