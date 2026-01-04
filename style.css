@@ -1,0 +1,77 @@
+.st_app{
+    background : linear-gradient(
+        135deg, 
+        #667eea 0%,
+        #764ba2 50%,
+        #f093fb 100%
+        ) !important;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height : 100vh;
+}
+
+[data-testid="stAppViewContainer"] {
+    background : linear-gradient(
+        135deg, 
+        #DC143C 0%,
+        #000000 50%,
+        #DC143C 100%
+        ) !important;
+}
+.card{
+    background-color : rgba(255, 255, 255, 0.15);
+    backdrop-filter : blur(10px);
+    border-radius : 16px;
+    box-shadow : 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding : 25px;
+    margin-bottom : 25px;
+    text-align : center;
+}
+h1, h2, h3{
+    color : #ffffff;
+}
+p{
+    color : #ffffff !important;
+}
+/* Metric Box */
+div[data-testid = "metric-container"]{
+    background-color : rgba(255, 255, 255, 0.2);
+    border-radius : 14px;
+    padding : 15px;
+    box-shadow : 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 8px auto;
+    width: fit-content;
+}
+
+/* Center dataframe */
+div[data-testid="stDataFrame"] {
+    display: flex;
+    justify-content: center;
+}
+
+div[data-testid="stDataFrame"] > div {
+    margin: 0 auto;
+}
+
+/* Center groups of widgets (including metrics) within cards */
+.card [data-testid="stHorizontalBlock"]{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.card [data-testid="metric-container"]{
+    margin: 8px;
+}
+.prediction-box{
+    background-color : linear-gradient(
+        135deg, 
+        #dcfce7,
+        #00ff59,
+        );
+    padding : 22px;
+    text-align : center;
+    font-weight : bold;
+    color : #ffffff;
+    margin-top : 15px;    
+}
